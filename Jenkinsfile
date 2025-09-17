@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'master',
-                url: 'https://github.com/<your-username>/hello-devops.git'
+                url: 'https://github.com/bassamali/simple-hello-world-project.git'
             }
         }
 
